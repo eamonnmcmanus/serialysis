@@ -1,7 +1,7 @@
 This is Serialysis, a library to parse serialized Java objects.
 It was originally published in [this blog entry](https://community.oracle.com/blogs/emcmanus/2007/06/12/disassembling-serialized-java-objects).
 
-Thanks to Chris Frohoff (frohoff@) for rescuing the source code from oblivion. It had not survived
+Thanks to Chris Frohoff (@frohoff) for rescuing the source code from oblivion. It had not survived
 the migration of blogs from `weblogs.java.net` to `community.oracle.com`.
 
 The text below is closely based on the original blog entry, dating from
