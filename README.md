@@ -173,7 +173,7 @@ type `int`:
 
 ```java
     /**
-     * The value of the &lt;code&gt;Integer&lt;/code&gt;.
+     * The value of the <code>Integer</code>.
      *
      * @serial
      */
