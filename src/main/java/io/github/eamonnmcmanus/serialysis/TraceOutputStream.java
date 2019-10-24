@@ -11,13 +11,14 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.mcmanus.eamonn.serialysis;
+package io.github.eamonnmcmanus.serialysis;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Arrays;
-import static net.mcmanus.eamonn.serialysis.Trace.enter;
-import static net.mcmanus.eamonn.serialysis.Trace.exit;
+
+import static io.github.eamonnmcmanus.serialysis.Trace.enter;
+import static io.github.eamonnmcmanus.serialysis.Trace.exit;
 
 class TraceOutputStream extends OutputStream {
 

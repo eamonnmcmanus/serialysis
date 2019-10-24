@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.mcmanus.eamonn.serialysis.test;
+package io.github.eamonnmcmanus.serialysis;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -21,12 +21,12 @@ import java.io.Serializable;
 import java.lang.annotation.ElementType;
 import java.util.Collections;
 import junit.framework.*;
-import net.mcmanus.eamonn.serialysis.SArray;
-import net.mcmanus.eamonn.serialysis.SObject;
-import net.mcmanus.eamonn.serialysis.SEntity;
-import net.mcmanus.eamonn.serialysis.SPrim;
-import net.mcmanus.eamonn.serialysis.SString;
-import net.mcmanus.eamonn.serialysis.SerialScan;
+import io.github.eamonnmcmanus.serialysis.SArray;
+import io.github.eamonnmcmanus.serialysis.SObject;
+import io.github.eamonnmcmanus.serialysis.SEntity;
+import io.github.eamonnmcmanus.serialysis.SPrim;
+import io.github.eamonnmcmanus.serialysis.SString;
+import io.github.eamonnmcmanus.serialysis.SerialScan;
 
 public class SerialTest extends TestCase {
 

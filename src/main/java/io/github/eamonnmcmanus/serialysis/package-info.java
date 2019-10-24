@@ -13,4 +13,4 @@
  *
  * @version 0.9
  */
-package net.mcmanus.eamonn.serialysis;
+package io.github.eamonnmcmanus.serialysis;

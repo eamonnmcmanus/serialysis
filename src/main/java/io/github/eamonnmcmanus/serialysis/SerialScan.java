@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.mcmanus.eamonn.serialysis;
+package io.github.eamonnmcmanus.serialysis;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -20,7 +20,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;  // for javadoc
 import java.io.ObjectOutputStream;
+
 import static java.io.ObjectStreamConstants.*;
+
 import java.io.SequenceInputStream;
 import java.io.StreamCorruptedException;
 import java.io.WriteAbortedException;
@@ -32,9 +34,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static net.mcmanus.eamonn.serialysis.Trace.enter;
-import static net.mcmanus.eamonn.serialysis.Trace.exit;
-import static net.mcmanus.eamonn.serialysis.Trace.show;
+import static io.github.eamonnmcmanus.serialysis.Trace.enter;
+import static io.github.eamonnmcmanus.serialysis.Trace.exit;
+import static io.github.eamonnmcmanus.serialysis.Trace.show;
 
 /**
  * Scan a serial stream to produce a representation of each object

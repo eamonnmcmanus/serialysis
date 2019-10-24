@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.mcmanus.eamonn.serialysis.test;
+package io.github.eamonnmcmanus.serialysis;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -30,10 +30,10 @@ import java.rmi.server.ObjID;
 import java.rmi.server.RemoteObject;
 import java.util.List;
 import junit.framework.*;
-import net.mcmanus.eamonn.serialysis.SBlockData;
-import net.mcmanus.eamonn.serialysis.SObject;
-import net.mcmanus.eamonn.serialysis.SEntity;
-import net.mcmanus.eamonn.serialysis.SerialScan;
+import io.github.eamonnmcmanus.serialysis.SBlockData;
+import io.github.eamonnmcmanus.serialysis.SObject;
+import io.github.eamonnmcmanus.serialysis.SEntity;
+import io.github.eamonnmcmanus.serialysis.SerialScan;
 
 public class AnonymousRegistryTest extends TestCase {
 

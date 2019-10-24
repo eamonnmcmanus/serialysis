@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.mcmanus.eamonn.serialysis;
+package io.github.eamonnmcmanus.serialysis;
 
 /**
  * <p>A representation of a serialized array.  The represented array can be
