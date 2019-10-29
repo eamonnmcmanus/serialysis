@@ -58,6 +58,7 @@ public class SObject extends SEntity {
      * Get the representation of the serial field with the given name in
      * this serialized object.
      *
+     * @param name the name of the field.
      * @return the representation of the field with the given name.
      */
     public SEntity getField(String name) {
@@ -84,10 +85,12 @@ public class SObject extends SEntity {
         return (List<SEntity>) annots.clone();
     }
 
+    @Override
     String kind() {
         return "SObject";
     }
 
+    @Override
     String contents() {
         StringBuilder sb = new StringBuilder();
         sb.append("\n");
@@ -101,12 +104,13 @@ public class SObject extends SEntity {
             sb.append("-- data written by class's writeObject:\n");
             for (SEntity annot : annots) {
                 indent(sb);
-                sb.append(annot + "\n");
+                sb.append(annot).append("\n");
             }
         }
         return sb.toString();
     }
 
+    @Override
     public String getType() {
         return super.getType();
     }
