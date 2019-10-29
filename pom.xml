@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
  
-  <groupId>net.mcmanus.eamonn.serialysis</groupId>
+  <groupId>io.github.eamonnmcmanus</groupId>
   <artifactId>serialysis</artifactId>
   <version>0.9-SNAPSHOT</version>
 
@@ -10,6 +10,21 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:https://github.com/eamonnmcmanus/serialysis.git</connection>
+    <developerConnection>scm:git:git@github.com:eamonnmcmanus/serialysis.git</developerConnection>
+    <url>https://github.com/eamonnmcmanus/serialysis</url>
+    <tag>HEAD</tag>
+  </scm>
 
   <dependencies>
     <dependency>
