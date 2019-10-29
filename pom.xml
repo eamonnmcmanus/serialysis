@@ -3,7 +3,7 @@
  
   <groupId>io.github.eamonnmcmanus</groupId>
   <artifactId>serialysis</artifactId>
-  <version>0.9-SNAPSHOT</version>
+  <version>0.9</version>
 
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
@@ -22,7 +22,7 @@
     <connection>scm:git:https://github.com/eamonnmcmanus/serialysis.git</connection>
     <developerConnection>scm:git:git@github.com:eamonnmcmanus/serialysis.git</developerConnection>
     <url>https://github.com/eamonnmcmanus/serialysis</url>
-    <tag>HEAD</tag>
+    <tag>serialysis-0.9</tag>
   </scm>
 
   <dependencies>
