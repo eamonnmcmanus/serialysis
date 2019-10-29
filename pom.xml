@@ -3,7 +3,10 @@
  
   <groupId>io.github.eamonnmcmanus</groupId>
   <artifactId>serialysis</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.9-SNAPSHOT</version>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>Disassembling Java serialized objects.</description>
+  <url>https://github.com/eamonnmcmanus/serialysis</url>
 
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
@@ -17,6 +20,12 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <name>Éamonn McManus</name>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:https://github.com/eamonnmcmanus/serialysis.git</connection>
