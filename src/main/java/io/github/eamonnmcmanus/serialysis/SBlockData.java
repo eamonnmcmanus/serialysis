@@ -16,8 +16,8 @@ package io.github.eamonnmcmanus.serialysis;
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutput;
-import java.io.OutputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 
 /**
  * <p>A representation of arbitrary binary data included in a serial stream.
@@ -37,6 +37,8 @@ public class SBlockData extends SEntity {
     
     /**
      * Get the binary data.
+     *
+     * @return the binary data.
      */
     public byte[] getValue() {
         return data.clone();
@@ -44,16 +46,20 @@ public class SBlockData extends SEntity {
     
     /**
      * Get a DataInputStream that can read the binary data.
+     *
+     * @return a DataInputStream that can read the binary data.
      */
     public DataInputStream getDataInputStream() {
         ByteArrayInputStream bin = new ByteArrayInputStream(data);
         return new DataInputStream(bin);
     }
     
+    @Override
     String kind() {
         return "SBlockData";
     }
     
+    @Override
     String contents() {
         return data.length + " byte" + (data.length == 1 ? "" : "s") +
                 " of binary data";

@@ -36,10 +36,12 @@ public class SPrim extends SEntity {
         this.value = x;
     }
 
+    @Override
     String kind() {
         return "SPrim";
     }
 
+    @Override
     String contents() {
         return value.toString();
     }
@@ -47,6 +49,8 @@ public class SPrim extends SEntity {
     /**
      * The value of the primitive object, wrapped in the corresponding
      * wrapper type, for example Integer if the primitive is an int.
+     *
+     * @return the wrapped primitive value.
      */
     public Object getValue() {
         return value;

@@ -52,9 +52,9 @@ public class SerialScan {
      * in the serial stream.
      *
      * @param in the serial stream to be analyzed.
-     * @exception IOException if there is a problem reading the
-     * {@code InputStream}, for example if it does not begin with
-     * the correct sequence of bytes.
+     * @throws IOException if there is a problem reading the
+     *     {@code InputStream}, for example if it does not begin with
+     *     the correct sequence of bytes.
      */
     public SerialScan(InputStream in) throws IOException {
         this.in = in;
@@ -70,8 +70,8 @@ public class SerialScan {
      *
      * @param x the object to be examined.
      * @return the {@code SEntity} representing {@code x}.
-     * @exception IllegalArgumentException if the object cannot be serialized or
-     * the resultant serial stream is incorrectly formatted.
+     * @throws IllegalArgumentException if the object cannot be serialized or
+     *     the resultant serial stream is incorrectly formatted.
      */
     public static SEntity examine(Object x) {
         try {
@@ -91,6 +91,7 @@ public class SerialScan {
      * Return the representation of the next object read from the serial stream.
      *
      * @return the representation of the object read from the serial stream.
+     * @exception IOException if there is an I/O exception reading the object.
      */
     public SEntity readObject() throws IOException {
         enter("readObject");

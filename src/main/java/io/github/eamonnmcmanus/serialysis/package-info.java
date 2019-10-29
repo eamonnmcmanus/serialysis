@@ -6,10 +6,7 @@
  * serialization of your classes.</p>
  *
  * <p>The entry point is the {@link
- * net.mcmanus.eamonn.serialysis.SerialScan SerialScan} class.</p>
- *
- * @see <a href="http://weblogs.java.net/blog/emcmanus/archive/2007/06/disassembling_s.html">
- * Disassembling serialized Java objects</a>.
+ * io.github.eamonnmcmanus.serialysis.SerialScan SerialScan} class.</p>
  *
  * @version 0.9
  */

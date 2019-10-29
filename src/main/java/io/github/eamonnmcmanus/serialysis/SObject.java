@@ -57,6 +57,8 @@ public class SObject extends SEntity {
     /**
      * Get the representation of the serial field with the given name in
      * this serialized object.
+     *
+     * @return the representation of the field with the given name.
      */
     public SEntity getField(String name) {
         return fields.get(name);
@@ -64,6 +66,8 @@ public class SObject extends SEntity {
 
     /**
      * Get the names of the serial fields in this serialized object.
+     *
+     * @return the names of the serial fields.
      */
     public Set<String> getFieldNames() {
         return fields.keySet();
@@ -72,6 +76,8 @@ public class SObject extends SEntity {
     /**
      * Get any additional data written to the serial stream by a
      * writeObject method in the class or any of its ancestors.
+     *
+     * @return the annotations.
      */
     @SuppressWarnings("unchecked")
     public List<SEntity> getAnnotations() {
